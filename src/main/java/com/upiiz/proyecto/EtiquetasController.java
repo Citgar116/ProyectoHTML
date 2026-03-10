@@ -60,4 +60,36 @@ public class EtiquetasController {
     public String a() {
         return "a";
     }
+
+    @GetMapping("/img")
+    public String img(){return "img";}
+
+    @GetMapping("/video")
+    public String video(){return "video";}
+
+    @GetMapping("/audio")
+    public String audio(){return "audio";}
+
+    @GetMapping("/li")
+    public String li(){return "li";}
+
+    @GetMapping("/table")
+    public String table(){return "table";}
+
+    @GetMapping("/tr")
+    public String tr(){return "tr";}
+
+    @GetMapping("/td")
+    public String td(){return "td";}
+
+    @GetMapping("/form")
+    public String form(){return "form";}
+
+    @GetMapping("/input")
+    public String input(){return "input";}
+
+    @GetMapping("/button")
+    public String button(){return "button";}
+
+
 }
